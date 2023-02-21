@@ -7,6 +7,8 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import { useEffect, useMemo, useState } from "react";
+import {userRequest} from "../../request"
 
 const data = [
   { name: "January", Total: 1200 },
@@ -17,7 +19,10 @@ const data = [
   { name: "June", Total: 1700 },
 ];
 
-const Chart = ({ aspect, title }) => {
+
+const Chart = ({ aspect, title,data, dataKey }) => {
+
+
   return (
     <div className="chart">
       <div className="title">{title}</div>
@@ -39,7 +44,7 @@ const Chart = ({ aspect, title }) => {
           <Tooltip />
           <Area
             type="monotone"
-            dataKey="Total"
+            dataKey={dataKey}
             stroke="#8884d8"
             fillOpacity={1}
             fill="url(#total)"

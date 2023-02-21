@@ -1,3 +1,22 @@
 .login{
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    input{
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    button{
+        width: 100px;
+        height: 30px;
+        cursor: pointer;
+        background-color: teal;
+        border:1px solid teal;
+        border-radius: 5px;
+        color: white;
+        font-weight: 600;
+        
+}
 }
