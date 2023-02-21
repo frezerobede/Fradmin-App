@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Fradmin-App/static/css/main.c936ba0b.css",
+    "main.js": "/Fradmin-App/static/js/main.60b30ecd.js",
+    "index.html": "/Fradmin-App/index.html",
+    "main.c936ba0b.css.map": "/Fradmin-App/static/css/main.c936ba0b.css.map",
+    "main.60b30ecd.js.map": "/Fradmin-App/static/js/main.60b30ecd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c936ba0b.css",
+    "static/js/main.60b30ecd.js"
+  ]
+}
